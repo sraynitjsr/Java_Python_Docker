@@ -1,5 +1,5 @@
-class MyMain {
+public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Automating Containerizing Java App");
+        System.out.println("Hello, World!");
     }
 }
