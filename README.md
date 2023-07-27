@@ -5,3 +5,6 @@ docker build -t helloworld-java-image .
 
 # Running Docker Image
 docker run -d --name helloworld-java-image-app helloworld-java-image
+
+# Run Program Using Python
+python app_script.py
