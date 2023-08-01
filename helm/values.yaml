@@ -1,9 +1,9 @@
 image:
-  repository: your-docker-registry/your-java-app
+  repository: my-docker-registry/my-java-app
   tag: latest
 
 service:
-  name: your-java-app
+  name: my-java-app
   port: 8080
 
 replicaCount: 2
