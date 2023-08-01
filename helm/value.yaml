@@ -1,1 +1,10 @@
+image:
+  repository: your-docker-registry/your-java-app
+  tag: latest
+
+service:
+  name: your-java-app
+  port: 8080
+
+replicaCount: 1
 
