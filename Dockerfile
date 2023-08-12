@@ -13,5 +13,8 @@ COPY HelloWorld.java .
 # Compile the Java program inside the container
 RUN javac HelloWorld.java
 
+# Expose the port the Java program will listen on
+EXPOSE 8080
+
 # Run the Java program when the container starts
 CMD ["java", "HelloWorld"]
